@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="crime_solved_icon_desc">Crime solved icon</string>
+    <string name="crime_title_hint">Enter a title for the crime.</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="crime_time_label">Set Time</string>
+    <string name="new_crime">New Crime</string>
+    <string name="empty_message">There are no crimes</string>
+    <string name="add_crime_button_label">Add New Crime</string>
+    <string name="delete_crime">Delete Crime</string>
+    <string name="crime_suspect_text">Choose Suspect</string>
+    <string name="crime_report_text">Send Crime Report</string>
+    <string name="crime_report">%1$s!
+        The crime was discovered on %2$s. %3$s, and %4$s
+    </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">there is no suspect.</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
+    <string name="no_contacts_app_available">No contacts app is available on this device.</string>
+    <string name="crime_photo_desc">Crime photo placeholder</string>
+    <string name="crime_camera_desc">Take a picture of the crime</string>
+    <string name="photo_detail">Zoomed-in photo detail</string>
+    <string name="call_suspect">Call Suspect</string>
+    <string name="crime_photo_button_description">Take photo of crime scene</string>
+    <string name="crime_photo_no_image_description">Crime scene photo (not set)</string>
+    <string name="crime_photo_image_description">Crime scene photo (set)</string>
+    <string name="crime_row_solved">Solved</string>
+    <string name="crime_row_not_solved">Not solved</string>
+    <string name="crime_row_a11y">%1$s. %2$s. %3$s.</string>
+    <string name="crime_date_label">Date &amp; time</string>
+    <string name="crime_suspect_label">Suspect</string>
+    <string name="a11y_photo_updated">Photo added.</string>
+    <string name="a11y_photo_failed">Photo not saved.</string>
+    <string name="a11y_photo_canceled">Camera canceled.</string>
+</resources>

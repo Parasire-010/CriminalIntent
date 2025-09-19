@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/hacker_black"
+    tools:context=".CrimeDetailFragment">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/crime_title_label"
+        android:textColor="@color/hacker_green"
+        android:labelFor="@id/crime_title" />
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hacker_black"
+        app:titleTextColor="@color/hacker_green"
+        app:subtitleTextColor="@color/hacker_green"
+        app:navigationIconTint="@color/hacker_green" />
+
+    <!-- Title input -->
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/crime_title_hint"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:background="@color/hacker_black"
+        android:textColor="@color/hacker_green"
+        android:textColorHint="@color/hacker_green_hint" />
+
+    <!-- Camera row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/crime_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:cropToPadding="true"
+            android:background="@color/hacker_black"
+            android:contentDescription="@string/crime_photo_no_image_description" />
+
+        <ImageButton
+            android:id="@+id/crime_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@color/hacker_black"
+            android:src="@drawable/ic_camera"
+            android:contentDescription="@string/crime_photo_button_description"
+            app:tint="@color/hacker_green" />
+    </LinearLayout>
+
+    <!-- Details heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_details_label"
+        android:textColor="@color/hacker_green"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <!-- Date/Time label -->
+    <TextView
+        android:id="@+id/crime_date_time_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_date_label"
+        android:textColor="@color/hacker_green"
+        android:labelFor="@id/crime_date_time" />
+
+    <!-- Date/Time button -->
+    <Button
+        android:id="@+id/crime_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Fri May 11, 2022 11:56 AM"
+        android:textColor="@color/hacker_green"
+        android:background="@color/hacker_black"
+        app:backgroundTint="@color/hacker_black"
+        app:rippleColor="@color/hacker_green_dim" />
+
+    <!-- Solved -->
+    <CheckBox
+        android:id="@+id/crime_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_solved_label"
+        android:textColor="@color/hacker_green"
+        android:background="@color/hacker_black"
+        app:buttonTint="@color/hacker_green" />
+
+    <!-- Suspect label -->
+    <TextView
+        android:id="@+id/crime_suspect_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_suspect_label"
+        android:textColor="@color/hacker_green"
+        android:labelFor="@id/crime_suspect" />
+
+    <!-- Suspect button -->
+    <Button
+        android:id="@+id/crime_suspect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_suspect_text"
+        android:textColor="@color/hacker_green"
+        android:background="@color/hacker_black"
+        app:backgroundTint="@color/hacker_black"
+        app:rippleColor="@color/hacker_green_dim" />
+
+    <!-- Report button -->
+    <Button
+        android:id="@+id/crime_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_report_text"
+        android:textColor="@color/hacker_green"
+        android:background="@color/hacker_black"
+        app:backgroundTint="@color/hacker_black"
+        app:rippleColor="@color/hacker_green_dim" />
+
+    <!-- Call button -->
+    <Button
+        android:id="@+id/callSuspect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_suspect"
+        android:enabled="false"
+        android:textColor="@color/hacker_green"
+        android:background="@color/hacker_black"
+        app:backgroundTint="@color/hacker_black"
+        app:rippleColor="@color/hacker_green_dim" />
+
+</LinearLayout>

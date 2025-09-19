@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">IntentoCriminal</string>
+    <string name="crime_solved_icon_desc">Icono de caso resuelto</string>
+    <string name="crime_title_hint">Introduzca un título para el crimen.</string>
+    <string name="crime_title_label">Título</string>
+    <string name="crime_details_label">Detalles</string>
+    <string name="crime_solved_label">Solucionado</string>
+    <string name="crime_time_label">Establecer Hora</string>
+    <string name="new_crime">Crimen Nuevo</string>
+    <string name="empty_message">No hay crímenes</string>
+    <string name="add_crime_button_label">Agregar Nuevo Crimen</string>
+    <string name="delete_crime">Eliminar Crimen</string>
+    <string name="crime_suspect_text">Elegir Sospechoso</string>
+    <string name="crime_report_text">Enviar el Informe del Crimen</string>
+    <string name="crime_report">%1$s!
+        El crimen fue descubierto el %2$s. %3$s, y %4$s
+    </string>
+    <string name="crime_report_solved">El caso está resuelto</string>
+    <string name="crime_report_unsolved">El caso no está resuelto</string>
+    <string name="crime_report_no_suspect">no hay sospechoso.</string>
+    <string name="crime_report_suspect">el/la sospechoso/a es %s.</string>
+    <string name="crime_report_subject">IntentoCriminal Informe del Crimen</string>
+    <string name="send_report">Enviar el informe del crimen a través de</string>
+    <string name="no_contacts_app_available">No hay una aplicación de contactos disponible en este dispositivo.</string>
+    <string name="crime_photo_desc">Marcador de foto del crimen</string>
+    <string name="crime_camera_desc">Tome una foto del crimen</string>
+    <string name="photo_detail">Detalle de foto ampliado</string>
+    <string name="call_suspect">Llamar al Sospechoso</string>
+    <string name="crime_photo_button_description">Tomar foto de la escena del crimen</string>
+    <string name="crime_photo_no_image_description">Foto de la escena del crimen (no establecida)</string>
+    <string name="crime_photo_image_description">Foto de la escena del crimen (establecida)</string>
+    <string name="crime_row_solved">Resuelto</string>
+    <string name="crime_row_not_solved">No resuelto</string>
+    <string name="crime_row_a11y">%1$s. %2$s. %3$s.</string>
+    <string name="crime_date_label">Fecha y hora</string>
+    <string name="crime_suspect_label">Sospechoso</string>
+    <string name="a11y_photo_updated">Foto agregada.</string>
+    <string name="a11y_photo_failed">No se guardó la foto.</string>
+    <string name="a11y_photo_canceled">Cámara cancelada.</string>
+</resources>
